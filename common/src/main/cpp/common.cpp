@@ -1,7 +1,7 @@
 #include <jni.h>
 #include <string>
 
-extern "C" JNIEXPORT jstring JNICALL
+extern "C" JNIEXPORT jstring  extern "C" JNICALL
 Java_com_dwayne_com_common_NativeLib_stringFromJNI(
         JNIEnv* env,
         jobject /* this */) {
