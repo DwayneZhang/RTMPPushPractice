@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="option_button_circle_size">48dp</dimen>
+    <dimen name="nice_option_width">48dp</dimen>
+    <dimen name="nice_option_height">48dp</dimen>
+</resources>

@@ -7,12 +7,11 @@ public class Constants {
     /**
      * 是否硬编码
      */
-    public static boolean isMediaCodec = true;
+    public static boolean isMediaCodec = false;
 
 
     //湖南卫视
-//    public static final String HUNAN_PATH = "rtmp://58.200.131.2:1935/livetv/hunantv";
-    public static final String HUNAN_PATH = "rtmp://49.235.159.44:1992/devykLive/live1";
+    public static final String HUNAN_PATH = "rtmp://58.200.131.2:1935/livetv/hunantv";
     //HTTP 拉流
     public static final String HTTP_PATH = "http://ivi.bupt.edu.cn/hls/cctv1hd.m3u8";
     //rtsp 拉流--》测试暂时播放不成功
@@ -25,7 +24,7 @@ public class Constants {
 
     public static final String nativePath = Environment.getExternalStorageDirectory() + "/NDKCrash";
     public static final String JavaPath = Environment.getExternalStorageDirectory() + "/JavaCrash";
-    public static String RTMP_PUSH = "rtmp://www.devyk.cn:1992/devykLive/live1";
+    public static String RTMP_PUSH = "rtmp://sendtc3.douyu.com/live";
 
     /**
      * 播放错误码

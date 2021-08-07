@@ -110,7 +110,6 @@ void RTMPModel::onConnect() {
         RTMP_Free(rtmp);
         rtmp = 0;
     }
-
     this->rtmp = RTMP_Alloc();
     if (!rtmp) {
         if (pushCallback) {
